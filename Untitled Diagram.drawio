@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T09:58:32.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="JZO7iOpICyp9Egg_1ODt" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-28T10:04:15.597Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="fBRWlENpKlyc1MqU4EWy" version="16.0.3" type="github">
   <diagram id="rx1oDeuhlW_kaDRLecYM" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
           <mxGeometry x="1490" y="600" width="59" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u4IvgcetQXjWhXc85SeZ-20" value="&lt;span style=&quot;font-size: 10px&quot;&gt;视图窗口，是除了header、footer 和侧边菜单栏的所有内容&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="960" y="447" width="330" height="30" as="geometry" />
+          <mxGeometry x="920" y="440" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uHuRW-FFPJboJH1VIYBR-1" value="内置基础组件（元组件）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="460" y="470" width="90" height="30" as="geometry" />
@@ -462,6 +462,9 @@
         </mxCell>
         <mxCell id="uHuRW-FFPJboJH1VIYBR-199" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;······&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="673" y="915" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uHuRW-FFPJboJH1VIYBR-200" value="配置页面操作频繁，渲染的dom会频繁更新，如果真实页面全部在同一视图层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="600" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
