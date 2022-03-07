@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T02:43:55.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="83Hws74ed08RhpGdUSo6" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T00:37:10.370Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="XvE-mVeFORBFgV71zTmp" version="16.6.6" type="github">
   <diagram id="rx1oDeuhlW_kaDRLecYM" name="Page-1">
-    <mxGraphModel dx="3412" dy="1385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3205" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -466,46 +466,46 @@
         <mxCell id="uHuRW-FFPJboJH1VIYBR-200" value="配置页面修改频繁，dom会频繁更新，如果真实页面全部在同一视图层渲染和各种事件处理，那么这个可视化平台本身性能就会很差，出现操作卡顿。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="1000" y="601" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ntIBRMvrJAGXFcNhHnMa-4" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;strokeColor=#4D4D4D;fillColor=default;gradientColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="ntIBRMvrJAGXFcNhHnMa-4" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;strokeColor=#4D4D4D;fillColor=default;gradientColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1260" y="1140" width="300" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="ntIBRMvrJAGXFcNhHnMa-1" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;dashed=1;dashPattern=1 4;strokeColor=#007FFF;opacity=60;" vertex="1" parent="1">
+        <mxCell id="ntIBRMvrJAGXFcNhHnMa-1" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;dashed=1;dashPattern=1 4;strokeColor=#007FFF;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="1320" y="1090" width="300" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="ntIBRMvrJAGXFcNhHnMa-2" value="&lt;font color=&quot;#ff6666&quot;&gt;画布分层：简化渲染和逻辑的重叠，使用画布分层，各个画布之间用一个统一控制器联系，处理事件，数据传递&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ntIBRMvrJAGXFcNhHnMa-2" value="&lt;font color=&quot;#ff6666&quot;&gt;画布分层：简化渲染和逻辑的重叠，使用画布分层，各个画布之间用一个统一控制器联系，处理事件，数据传递&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1120" y="1040" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ntIBRMvrJAGXFcNhHnMa-3" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;dashed=1;dashPattern=1 4;strokeColor=#FF6666;opacity=80;fillColor=default;gradientColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="ntIBRMvrJAGXFcNhHnMa-3" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;dashed=1;dashPattern=1 4;strokeColor=#FF6666;opacity=80;fillColor=default;gradientColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1370" y="1030" width="300" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="ntIBRMvrJAGXFcNhHnMa-5" value="底层用于dom渲染" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="ntIBRMvrJAGXFcNhHnMa-5" value="底层用于dom渲染" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1260" y="1360" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ntIBRMvrJAGXFcNhHnMa-6" value="&lt;font color=&quot;#007fff&quot;&gt;处理快捷建操作&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="ntIBRMvrJAGXFcNhHnMa-6" value="&lt;font color=&quot;#007fff&quot;&gt;处理快捷建操作&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1370" y="1310" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ntIBRMvrJAGXFcNhHnMa-7" value="&lt;font color=&quot;#ff6666&quot;&gt;处理事件&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="ntIBRMvrJAGXFcNhHnMa-7" value="&lt;font color=&quot;#ff6666&quot;&gt;处理事件&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1440" y="1200" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ntIBRMvrJAGXFcNhHnMa-8" value="&lt;font color=&quot;#4d4d4d&quot;&gt;event bus&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF6666;strokeColor=#4D4D4D;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="ntIBRMvrJAGXFcNhHnMa-8" value="&lt;font color=&quot;#4d4d4d&quot;&gt;event bus&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF6666;strokeColor=#4D4D4D;fillColor=default;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="1700" y="1030" width="100" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="ntIBRMvrJAGXFcNhHnMa-9" value="div" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="ntIBRMvrJAGXFcNhHnMa-9" value="div" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1270" y="1145" width="31" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ntIBRMvrJAGXFcNhHnMa-10" value="div" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="ntIBRMvrJAGXFcNhHnMa-10" value="div" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1329" y="1100" width="31" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ntIBRMvrJAGXFcNhHnMa-11" value="div" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="ntIBRMvrJAGXFcNhHnMa-11" value="div" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1380" y="1040" width="31" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ntIBRMvrJAGXFcNhHnMa-12" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#4D4D4D;" edge="1" parent="1">
+        <mxCell id="ntIBRMvrJAGXFcNhHnMa-12" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#4D4D4D;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1130" y="660" as="sourcePoint" />
             <mxPoint x="1230" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ntIBRMvrJAGXFcNhHnMa-13" value="&lt;font color=&quot;#ff6666&quot;&gt;物料市场：物料市场应该配置线上编辑器，支持线上修改、新增、调试然后提交申请入库。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ntIBRMvrJAGXFcNhHnMa-13" value="&lt;font color=&quot;#ff6666&quot;&gt;物料市场：物料市场应该配置线上编辑器，支持线上修改、新增、调试然后提交申请入库。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="800" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
